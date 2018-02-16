@@ -58,8 +58,8 @@ public enum MessageData {
 //
 //    case system(String)
 //    
-//    case custom(Any)
-//    
+    case custom([String: String])
+//
 //    case placeholder
 
 }
